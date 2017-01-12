@@ -1,0 +1,36 @@
+<!-- Code to reuse -->
+
+
+/* Create the parallax scrolling effect */
+	/* Set a specific height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+// change nav bar color on scroll
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    $(window).scroll(function() {
+      var scrollPos = $(window).scrollTop(),
+      navbar = $('nav.navbar.navbar-fixed-top');
+   
+      if (scrollPos > 120) {
+        navbar.addClass('change-color');
+      } 
+      else {
+        navbar.removeClass('change-color');
+      }
+    });
+ });
+
+// animated scroll for anchor links
+    $(document).on('click', 'a', function(event){
+      event.preventDefault();
+
+      $('html, body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top
+      }, 500);
+});
+</script>
