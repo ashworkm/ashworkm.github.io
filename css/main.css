@@ -1,0 +1,605 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+	margin: 0 !important;
+	font-family: 'Cormorant Garamond', serif;
+	background-color: gray; 
+	color: #fff;
+}
+
+nav.navbar.navbar-fixed-top {
+	background-color: transparent; 
+	width: 100% !important;
+	height: 60px;
+	opacity: 0.7;
+    z-index: 13;
+    border: none;
+}
+
+nav.navbar.navbar-fixed-top.change-color {
+	background-color: #49274A !important;
+}
+
+/*.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border: none !important;
+} */
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+nav li {
+	float: left;
+	list-style-type: none;
+}
+
+li a {
+	color: #fff !important;
+	text-decoration: none !important;
+	font-size: large;
+	border: 4px solid transparent;
+	margin: 0;
+}
+
+
+/*Hover state for top level links*/
+li a:hover  {
+	text-decoration: none !important;
+	border: 4px solid #fff;
+	padding: 10px;
+	margin: 0px;
+}
+
+
+li a:focus {
+	border-bottom: 4px solid #fff;
+	padding-bottom: 10px;
+}
+
+img#ash_pic {
+	border-radius: 50%;
+	filter: grayscale(100%);
+	margin: 0 auto;
+	display: block;
+	opacity: 0.9;
+    margin-top: 170px
+
+}
+
+
+.jumbotron {
+ /*   filter: grayscale(100%); */
+/*	max-width: 100% !important; */
+	height: 700px;
+	width: 100%;
+	display: block;
+	margin-top: -50px !important; 
+	margin: 0;
+	background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url("../img/code_coffee.jpg");
+    text-align: center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar.navbar-fixed-top .container {
+	margin-right: 0;
+	background-color: transparent;
+}
+
+#navbar {
+	float: right;
+}
+
+
+
+h1 {
+	margin: 0 auto;
+	width: 400px;
+    font-weight: 100;
+    font-size: 40px !important;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* .hello.container img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 140px;
+	border-radius: 50%;
+}
+*/
+
+
+
+h3 {
+	background-color: rgba(244, 208, 192, 0.15);
+    height: 80px;
+    margin-top: 0 !important;
+	margin-bottom: 0 !important;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+}
+div#intro.jumbotron p {
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	width: 66%;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+/*	background-color: #98878F */;
+}
+
+.skills {
+	background: url("../img/resumeBackground.jpg");
+	height: 100%;
+	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0 auto;
+	width: 100%; 
+	margin: 0 auto;
+
+}
+
+
+.indSkill {
+	background-color: rgba(244, 208, 192, 0.5);
+	color: #49274A;
+	font-size: 25px;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin: 25px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 180px;  
+	-webkit-box-shadow: 3px 3px 3px 3px #49274A;
+	-moz-box-shadow: 3px 3px 3px 3px #49274A;
+	box-shadow: 3px 3px 3px 3px #49274A;
+	-webkit-transition: width .75s ease-in-out; /* Safari 3.1 to 6.0 */
+    transition: width .75s ease-in-out;
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -webkit-transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+
+
+
+.indSkill:hover {
+	background-color: #49274A;
+	margin-top: -20px;	
+	color: #fff;
+	transform: scale(1.20);
+	opacity: 0.7;
+    z-index: 13;
+}
+
+
+
+
+
+.projects {
+/*	background-color: #98878F; */
+	background: url("../img/code_coffee2.jpg");
+	height: 100%;
+
+ /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+/*	margin-top: 100px; */
+
+/*	background-color: #7ea1a5;
+	opacity: 0.5; */
+	width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+img#construction {
+	margin: 123px;
+    width: 80%;
+    opacity: 0.9;
+}
+.contact {
+	padding: 100px 0 200px 0;
+/*	background: linear-gradient(
+                    rgba(20,20,20, .3), 
+                    rgba(20,20,20, .3)), */
+	background: url("../img/coffe2.jpg");
+	background-size: cover;
+/*	opacity: 0.5; */
+	height: 1036px;
+	width: 100%;
+	    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+form {
+/*	background: url("../img/formBackground.png"); */
+	background-color: rgba(244, 208, 192, 0.5); 
+	/*opacity: 0.7;
+    z-index: 13; */
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+h2.formHeading {
+	text-align: center;
+}
+
+.form-group label{
+	font-size: large;
+	margin-top: 10px;
+}
+
+form .form-group {
+	width: 80%;
+	margin: 0 auto;
+}
+
+button.btn.btn-primary {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: block;
+    width: 40%;
+    background-color: #49274A !important;
+    background-image: none !important;
+    border-color: #49274A !important;
+}
+
+
+
+footer {
+    background: #49274A;
+    padding: 0;
+    min-height: 450px;
+    text-align: center;
+    color: #fff;
+    clear: both;
+ }
+
+
+.resumeHeading {
+	text-align: center;
+}
+
+.resumeHeading h1 {
+	margin-top: 0 !important;
+}
+
+#resumeHeader {
+	height: 450px !important;
+	background: linear-gradient(
+                    rgba(20,20,20, .3), 
+                    rgba(20,20,20, .3)),
+					url("../img/code_coffee2.jpg");
+	filter: grayscale(100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0 !important;
+}
+
+#myResume {
+	background: url("../img/resumeBackground.jpg");
+    /* color: black; */
+    width: 60%;
+    margin: 0 auto;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.resumeContent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dates {
+	float: right !important;
+}
+
+
+
+
+/* ===================== Media Queries ==================== */
+
+
+
+ /* Custom, iPhone Retina */ 
+/* @media screen and (min-width : 320px) {
+ 	.jumbotron {
+ 		height: 250px !important;
+ 	}
+
+
+    } */
+
+    /* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.jumbotron {
+		padding: 48px 0;
+	    height: 300px;
+		background: linear-gradient(
+	                     rgba(20,20,20, .5), 
+	                     rgba(20,20,20, .5)),
+	                     url("../img/code_coffee.jpg");
+	                background-repeat: no-repeat;
+					background-size: cover;
+
+	 }
+
+	img#ash_pic {
+	    border-radius: 50%;
+	    filter: grayscale(100%);
+	    width: 70px;
+	    height: 70px;
+	    margin: 0 auto;
+    	margin-top: 60px;
+	    display: block;
+	    opacity: 0.9;
+  }
+
+  h1 {
+  	margin: 0 auto;
+    width: 400px;
+    font-weight: 100;
+    font-size: 25px !important;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.jumbotron p {
+    /* margin-bottom: 15px; */
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+h3 {
+	height: 30px;
+	font-size: 30px;
+}
+
+
+ .indSkill {
+    background-color: rgba(244, 208, 192, 0.5);
+    color: #49274A;
+    font-size: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    -webkit-box-shadow: 3px 3px 3px 3px #49274A;
+    -moz-box-shadow: 3px 3px 3px 3px #49274A;
+    box-shadow: 3px 3px 3px 3px #49274A;
+    -webkit-transition: width .75s ease-in-out;
+    transition: width .75s ease-in-out;
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -webkit-transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.contact {
+	padding: 0;
+	height: 800px;
+}
+	form {
+  	width: 100%;
+  	height: 100%;
+  	border-radius: 0;
+  }
+
+
+
+}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+    /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) and (min-width: 480px) {
+	
+	.jumbotron {
+		padding: 48px 0;
+	    height: 600px;
+		background: linear-gradient(
+	                     rgba(20,20,20, .5), 
+	                     rgba(20,20,20, .5)),
+	                     url("../img/code_coffee.jpg");
+	                background-repeat: no-repeat;
+					background-size: cover;
+
+	 }
+
+	img#ash_pic {
+	    border-radius: 50%;
+	    filter: grayscale(100%);
+	    width: 100px;
+	    height: 100px;
+	    margin: 0 auto;
+    	margin-top: 130px;
+	    display: block;
+	    opacity: 0.9;
+  }
+
+  h1 {
+  	margin: 0 auto;
+    width: 400px;
+    font-weight: 100;
+    font-size: 30px !important;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.jumbotron p {
+    /* margin-bottom: 15px; */
+    font-size: 22px;
+    font-weight: 200;
+}
+
+h3 {
+	height: 30px;
+	font-size: 30px;
+}
+
+
+ .indSkill {
+    background-color: rgba(244, 208, 192, 0.5);
+    color: #49274A;
+    font-size: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    -webkit-box-shadow: 3px 3px 3px 3px #49274A;
+    -moz-box-shadow: 3px 3px 3px 3px #49274A;
+    box-shadow: 3px 3px 3px 3px #49274A;
+    -webkit-transition: width .75s ease-in-out;
+    transition: width .75s ease-in-out;
+    transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -webkit-transition: all .2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+form {
+  	width: 80%;
+  }
+
+
+    }
+
+ /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    width: 100%;
+    background-color: #49274A;
+    text-align: center;
+  }
+}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
