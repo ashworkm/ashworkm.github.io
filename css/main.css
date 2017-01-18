@@ -354,8 +354,9 @@ footer {
 }
 
 .resumeHeading h1 {
-    color: white;
-    
+    color: #white !important;
+    margin: 90px auto 90px;
+
 .obfuscate { 
     unicode-bidi: bidi-override; 
     direction: rtl; 
@@ -376,9 +377,8 @@ footer {
     height: 320px;
 }
 .resumeContent {
-    color: white;
     width: 80%;
-    margin: 90px auto 90px;
+    margin: 0 auto;
 }
 
 .dates {
@@ -668,6 +668,9 @@ form {
     @media only screen and (min-width : 1200px) {
 
     }
+
+
+
 
 
 
