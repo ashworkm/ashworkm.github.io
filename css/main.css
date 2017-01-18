@@ -370,6 +370,7 @@ a:hover  {
 	margin: 0px;
 }
 
+
 .obfuscate { 
     unicode-bidi: bidi-override; 
     direction: rtl; 
@@ -392,7 +393,7 @@ a:hover  {
 .resumeContent {
     width: 80%;
     margin: 0 auto;
-    margin-top: 40px !important;
+    margin-top: 40px;
 }
 
 .dates {
@@ -640,6 +641,7 @@ form {
   	width: 80%;
   }
 
+
     }
 
  /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
@@ -681,6 +683,9 @@ form {
     @media only screen and (min-width : 1200px) {
 
     }
+
+
+
 
 
 
