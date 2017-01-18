@@ -349,11 +349,17 @@ footer {
 
 .resumeHeading {
 	text-align: center;
+	margin: 80px auto 80px;
+
 }
 
 .resumeHeading h1 {
     color: white !important;
-    margin: 80px auto 80px;
+}
+
+.resumeHeading a {
+    color: white !important;
+    text-decoration: none !important;
 }
 
 .obfuscate { 
