@@ -108,28 +108,31 @@
   method="POST"
   enctype="text/plain"
   name="ContactMe">
+ <input name="_recipients" type="hidden" value="contact.aworkman@gmail.com" />
+<input name="_requiredFields" type="hidden"
+  value="contactName,emailAddress,projectType" />
           <br>
           <p><h2 class="formHeading">Contact Me</h2></p>
           <div class="form-group">
             <br>
             <label for="ContactName">Name</label>
-            <input type="text" class="form-control" id="contactName"placeholder="Enter Name">
+            <input type="text" name="contactName" class="form-control" id="contactName"placeholder="Enter Name">
           </div>
             <div class="form-group">
             <label for="emailAddress">Email address</label>
-            <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" name="emailAddress" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">No worries, I'll never share your email with anyone else.</small>
           </div>
            <div class="form-group">
             <label for="reasonSelect">Reason For Contact</label>
-            <select class="form-control" id="reasonSelect">
+            <select class="form-control" id="reasonSelect" name="reasonSelect">
               <option>I would like you to work on a project.</option>
               <option>Just saying hi!</option>
             </select>
           </div>
           <div class="form-group">
             <label for="budgetSelect">Budget</label>
-            <select class="form-control" id="budgetSelect">
+            <select class="form-control" id="budgetSelect" name="budgetSelect">
               <option>$5-10k</option>
               <option>$10-20k</option>
               <option>$20k+</option>
@@ -137,11 +140,11 @@
           </div>
            <div class="form-group">
             <label for="projectType">Type of Project</label>
-            <input type="text" class="form-control" id="projectType"placeholder="Enter project type">
+            <input type="text" class="form-control" id="projectType" name="projectType" placeholder="Enter project type">
           </div>
           <div class="form-group">
             <label for="projectComments">Comments</label>
-            <textarea class="form-control" id="projectComments" rows="5"></textarea>
+            <textarea class="form-control" id="projectComments" name="projectComments" rows="5"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
           <br><br><br><br>
