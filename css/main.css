@@ -1,3 +1,5 @@
+     
+675 lines (548 sloc)  12.4 KB
 
 
 /* ==========================================================================
@@ -354,9 +356,9 @@ footer {
 }
 
 .resumeHeading h1 {
-    color: white;
-}
-    
+    color: #white !important;
+    margin: 90px auto 90px;
+
 .obfuscate { 
     unicode-bidi: bidi-override; 
     direction: rtl; 
@@ -375,12 +377,10 @@ footer {
 
 #resumeHeader {
     height: 320px;
-    margin-top: 0 !important;
 }
 .resumeContent {
-    color: white;
     width: 80%;
-    margin: 90px auto 90px;
+    margin: 0 auto;
 }
 
 .dates {
@@ -399,8 +399,6 @@ footer {
  	.jumbotron {
  		height: 250px !important;
  	}
-
-
     } */
 
     /* Extra Small Devices, Phones */ 
@@ -670,7 +668,5 @@ form {
     @media only screen and (min-width : 1200px) {
 
     }
-
-
 
 
