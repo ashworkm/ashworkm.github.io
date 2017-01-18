@@ -180,7 +180,7 @@
       event.preventDefault();
 
       $('html, body').animate({
-          scrollTop: $( $.attr(this, '.anchor') ).offset().top
+          scrollTop: $( $.attr(this, 'href') ).offset().top
       }, 500);
 });
 
