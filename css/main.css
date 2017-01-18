@@ -1,3 +1,4 @@
+
      
 675 lines (548 sloc)  12.4 KB
 
@@ -353,7 +354,6 @@ footer {
 
 .resumeHeading {
 	text-align: center;
-	margin: 80px auto 80px;
 }
 
 .resumeHeading h1 {
@@ -669,5 +669,3 @@ form {
     @media only screen and (min-width : 1200px) {
 
     }
-
-
