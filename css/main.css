@@ -374,6 +374,7 @@ a:hover  {
 .obfuscate { 
     unicode-bidi: bidi-override; 
     direction: rtl; 
+    font-size: large;	
 }
 
 
