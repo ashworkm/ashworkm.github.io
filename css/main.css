@@ -355,6 +355,7 @@ footer {
 
 .resumeHeading h1 {
     color: white;
+}
     
 .obfuscate { 
     unicode-bidi: bidi-override; 
@@ -374,6 +375,7 @@ footer {
 
 #resumeHeader {
     height: 320px;
+    margin-top: 0 !important;
 }
 .resumeContent {
     color: white;
