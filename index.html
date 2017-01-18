@@ -176,11 +176,11 @@
           });
 
 // animated scroll for anchor links
-    $(document).on('click', '.anchor', function(event){
+    $(document).on('click', 'a', function(event){
       event.preventDefault();
 
       $('html, body').animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top
+          scrollTop: $( $.attr(this, '.anchor') ).offset().top
       }, 500);
 });
 
