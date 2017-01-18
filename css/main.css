@@ -358,8 +358,8 @@ footer {
     color: white !important;
 }
 
-.resumeHeading a {
-    color: white !important;
+.resumeHeading a:hover {
+    color: #49274A !important;
     text-decoration: none !important;
 }
 
