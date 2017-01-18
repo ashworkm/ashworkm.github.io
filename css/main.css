@@ -354,9 +354,8 @@ footer {
 }
 
 .resumeHeading h1 {
-    color: #49274A !important;
-	margin-top: 0 !important;
-}
+    color: #white !important;
+    margin: 90px auto 90px;
 
 .obfuscate { 
     unicode-bidi: bidi-override; 
