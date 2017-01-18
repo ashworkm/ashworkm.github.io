@@ -390,7 +390,7 @@ a:hover  {
 
 #resumeHeader {
     height: 320px;
-    background: url(img/code_coffee2.jpg);
+    background: url('../img/code_coffee2.jpg');
     background-size: cover;
     filter: grayscale(50%);
 
