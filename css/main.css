@@ -358,6 +358,18 @@ footer {
     color: white !important;
 }
 
+.resumeHeading a {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+.resumeHeading a:hover  {
+	text-decoration: none !important;
+	border: 2px solid #fff;
+	padding: 10px;
+	margin: 0px;
+}
+
 
 .obfuscate { 
     unicode-bidi: bidi-override; 
