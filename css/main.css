@@ -358,12 +358,12 @@ footer {
     color: white !important;
 }
 
-.resumeHeading a {
+a {
 	color: white !important;
 	text-decoration: none !important;
 }
 
-.resumeHeading a:hover  {
+a:hover  {
 	text-decoration: none !important;
 	border: 2px solid #fff;
 	padding: 10px;
