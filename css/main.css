@@ -374,6 +374,9 @@ footer {
     margin: 0 auto;
 }
 
+#resumeHeader {
+    height: 240px;
+}
 .resumeContent {
     width: 80%;
     margin: 0 auto;
