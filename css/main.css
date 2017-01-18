@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -354,8 +352,9 @@ footer {
 }
 
 .resumeHeading h1 {
-    color: #white !important;
-    margin: 90px auto 90px;
+    color: #49274A !important;
+	margin-top: 0 !important;
+}
 
 .obfuscate { 
     unicode-bidi: bidi-override; 
@@ -364,14 +363,14 @@ footer {
 
 
 
-/* #myResume {
+#myResume {
     background-color: white;
     max-width: 1040px;
     margin: 0 auto;
     margin-top: 80px !important;
     margin-bottom: 80px !important;
     margin: 0 auto;
-} */
+}
 
 #resumeHeader {
     height: 320px;
@@ -668,6 +667,10 @@ form {
     @media only screen and (min-width : 1200px) {
 
     }
+
+
+
+
 
 
 
