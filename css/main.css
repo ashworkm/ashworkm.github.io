@@ -358,10 +358,6 @@ footer {
     color: white !important;
 }
 
-.resumeHeading a:hover {
-    color: #49274A !important;
-    text-decoration: none !important;
-}
 
 .obfuscate { 
     unicode-bidi: bidi-override; 
