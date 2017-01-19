@@ -203,6 +203,9 @@ h3 {
     margin-top: -93px;
 }
 
+.ribbon h3 {
+	color: #fff !important;
+}
 	
 .skills {
 	height: 100%;
