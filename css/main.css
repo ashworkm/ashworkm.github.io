@@ -734,7 +734,9 @@ form {
     max-height: 66px;
     height: 66px;
 }	
-
+.projects.wrapper .ribbon {
+    margin-top: -100px;
+}
 
 }
 
