@@ -437,7 +437,7 @@ a:hover  {
 
 
  /* Custom, iPhone Retina */ 
- @media screen and (min-width : 320px) {
+ @media screen and (min-width : 320px) and (max-width : 400px) {
  /*	.jumbotron {
  		height: 250px !important;
  	} */
