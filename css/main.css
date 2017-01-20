@@ -489,7 +489,13 @@ a:hover  {
 					background-size: cover;
 
 	 }
-	.ribbon {  }
+	
+	.skills.wrapper {
+    	padding: 78px !important;
+}
+	.ribbon {
+		height: 45px !important;
+	}
 
 	img#ash_pic {
 	    border-radius: 50%;
@@ -534,7 +540,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 88px;
+  /*  padding: 88px; */
 }
 
 .skills {
