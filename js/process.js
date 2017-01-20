@@ -62,7 +62,7 @@ $(document).ready(function() {
 			})
 
 			// using the fail promise callback
-			.fail(function(data) {
+		/*	.fail(function(data) {
 
 				// show any errors
 				// best to remove for production
@@ -71,6 +71,6 @@ $(document).ready(function() {
 
 		// stop the form from submitting the normal way and refreshing the page
 		event.preventDefault();
-	});
+	}); */
 
 });
