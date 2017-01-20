@@ -453,7 +453,7 @@ a:hover  {
 	 }
 	.jumbotron p {
 		width: 100% !important;
-		font-size: 12px;
+		font-size: 12px; !important;
 		
 	 }
 	 .wrapper {
@@ -461,9 +461,9 @@ a:hover  {
 
     } 
 	 .ribbon {
-		     width: 90%;
-		     margin-top: -73px;
-		     height: 50px;
+		     width: 90%; !important;
+		     margin-top: -73px; !important;
+		     height: 50px; !important;
 	 }
 
     /* Extra Small Devices, Phones */ 
@@ -479,7 +479,7 @@ a:hover  {
 					background-size: cover;
 
 	 }
-	.ribbon { display: none !important; }
+	.ribbon {  }
 
 	img#ash_pic {
 	    border-radius: 50%;
