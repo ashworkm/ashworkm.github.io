@@ -437,18 +437,44 @@ a:hover  {
 
 
  /* Custom, iPhone Retina */ 
- @media screen and (min-width : 320px) {
+ @media screen and (min-width : 320px) and (max-width : 400px) {
  /*	.jumbotron {
  		height: 250px !important;
  	} */
 	 
-	 h1 {
-	/*	margin-left: -35px; */
-    		margin-bottom: 15px;
+	 li.icon {
+		 margin-right: 10px !important;
+		 
 	 }
-
+	 
+	 h1 {
+		margin-left: -35px !important;
+    		margin-bottom: 15px !important;
+	 }
+	.jumbotron p {
+		width: 100% !important;
+		font-size: 12px; !important;
+		
+	 }
+	 .wrapper {
+		 padding: 47px !important;
 
     } 
+	 .ribbon {
+		     width: 90%; !important;
+		     margin-top: -73px; !important;
+		     height: 50px; !important;
+	 }
+	 
+	 h3 {
+		 font-size: 12px !important;
+		 padding-bottom: 20px !important;
+	 }
+	 
+	 h3.formHeading {
+		 margin-bottom: 20px !important;
+	 }
+}
 
     /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
@@ -463,7 +489,28 @@ a:hover  {
 					background-size: cover;
 
 	 }
-	.ribbon { display: none !important; }
+	 h1 {
+		margin-left: -15px !important;
+    		margin-bottom: 15px !important;
+	 }
+	.jumbotron p {
+		width: 100% !important;
+		font-size: 12px; !important;
+		
+	 }
+	
+	.skills.wrapper {
+    	padding: 78px !important;
+}
+	.projects .wrapper .ribbon {
+	
+	margin-top: -70px !important;
+	}
+	.ribbon {
+		height: 45px !important;
+		    margin-top: -100px !important;
+}
+	}
 
 	img#ash_pic {
 	    border-radius: 50%;
@@ -508,7 +555,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 88px !important;
+  /*  padding: 88px; */
 }
 
 .skills {
@@ -518,6 +565,9 @@ h3 {
 .skills.wrapper {
     padding-top: 0;
     background: none;
+}
+.ribbon.second {
+	   margin-top: -68px !important;
 }
 
  .indSkill {
@@ -574,12 +624,33 @@ h3 {
   }
 
 
+button.btn.btn-primary {
+	margin-top: 10px !important;
+}
 
 }
 
 #myResume {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width : 480px) and (min-width: 400px) {
+	
+	h1 {
+		margin-left: 10px !important;
+	}
+	.jumbotron p {
+		margin-top: -10px !important;
+		font-size: 12px !important;
+	}
+	.skills.wrapper {
+		padding: 95px !important;
+	}
+	
+	.ribbon.first {
+		margin-top: -120px !important;
+	}
 }
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
@@ -797,11 +868,5 @@ form {
 }
 
     }
-
-
-
-
-
-
 
 
