@@ -465,6 +465,11 @@ a:hover  {
 		     margin-top: -73px; !important;
 		     height: 50px; !important;
 	 }
+	 
+	 h3 {
+		 font-size: 12px !important;
+		 padding-bottom: 20px !important;
+	 }
 }
 
     /* Extra Small Devices, Phones */ 
