@@ -635,6 +635,14 @@ button.btn.btn-primary {
     margin-bottom: 0 !important;
 }
 
+@media only screen and (max-width : 480px) and (min-width: 400px) {
+	
+	.skills.wrapper {
+		padding: 95px !important;
+	}
+	
+}
+
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
   ul.topnav li {display: none;}
