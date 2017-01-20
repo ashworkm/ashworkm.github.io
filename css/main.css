@@ -443,36 +443,36 @@ a:hover  {
  	} */
 	 
 	 li.icon {
-		 margin-right: 10px !important;
+		 margin-right: 10px ;
 		 
 	 }
 	 
 	 h1 {
-		margin-left: -35px !important;
-    		margin-bottom: 15px !important;
+		margin-left: -35px ;
+    		margin-bottom: 15px ;
 	 }
 	.jumbotron p {
-		width: 100% !important;
-		font-size: 12px; !important;
+		width: 100% ;
+		font-size: 12px; ;
 		
 	 }
 	 .wrapper {
-		 padding: 47px !important;
+		 padding: 47px ;
 
     } 
 	 .ribbon {
-		     width: 90%; !important;
-		     margin-top: -73px; !important;
-		     height: 50px; !important;
+		     width: 90%; ;
+		     margin-top: -73px;;
+		     height: 50px; ;
 	 }
 	 
 	 h3 {
-		 font-size: 12px !important;
-		 padding-bottom: 20px !important;
+		 font-size: 12px ;
+		 padding-bottom: 20px ;
 	 }
 	 
 	 h3.formHeading {
-		 margin-bottom: 20px !important;
+		 margin-bottom: 20px ;
 	 }
 }
 
@@ -490,12 +490,12 @@ a:hover  {
 
 	 }
 	 h1 {
-		margin-left: -15px !important;
-    		margin-bottom: 15px !important;
+		margin-left: -15px ;
+    		margin-bottom: 15px ;
 	 }
 	.jumbotron p {
-		width: 100% !important;
-		font-size: 12px; !important;
+		width: 100% ;
+		font-size: 12px;;
 		
 	 }
 	
@@ -504,11 +504,11 @@ a:hover  {
 }
 	.projects .wrapper .ribbon {
 	
-	margin-top: -70px !important;
+	margin-top: -70px ;
 	}
 	.ribbon {
-		height: 45px !important;
-		    margin-top: -100px !important;
+		height: 45px ;
+		    margin-top: -100px ;
 }
 	}
 
@@ -527,7 +527,7 @@ a:hover  {
     margin: 0 auto;
     width: 400px;
     font-weight: 100;
-    font-size: 25px !important;
+    font-size: 25px;
     text-align: center;
     margin-top: 10px;
 }
@@ -559,7 +559,7 @@ h3 {
 }
 
 .skills {
-    background-color: rgba(244, 208, 192, 0.5) !important;
+    background-color: rgba(244, 208, 192, 0.5);
 }
 
 .skills.wrapper {
@@ -567,13 +567,13 @@ h3 {
     background: none;
 }
 .ribbon.second {
-	   margin-top: -68px !important;
+	   margin-top: -68px ;
 }
 
  .indSkill {
     background-color: transparent;
     border-radius: 5px;
-    font-size: 20px !important;
+    font-size: 20px ;
     display: inline-block;
   /*  height: 100px;
     width: 100px;
@@ -610,7 +610,7 @@ img#construction {
     height: 400px;
 }
 h3 {
-	font-size 15px !important;
+	font-size 15px ;
 	height: 20px;
 	}
 .contact {
@@ -625,31 +625,31 @@ h3 {
 
 
 button.btn.btn-primary {
-	margin-top: 10px !important;
+	margin-top: 10px;
 }
 
 }
 
 #myResume {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
+    margin-top: 0 ;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width : 480px) and (min-width: 400px) {
 	
 	h1 {
-		margin-left: 10px !important;
+		margin-left: 10px;
 	}
 	.jumbotron p {
-		margin-top: -10px !important;
-		font-size: 12px !important;
+		margin-top: -10px ;
+		font-size: 12px ;
 	}
 	.skills.wrapper {
-		padding: 95px !important;
+		padding: 95px ;
 	}
 	
 	.ribbon.first {
-		margin-top: -120px !important;
+		margin-top: -120px ;
 	}
 }
 
