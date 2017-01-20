@@ -437,13 +437,18 @@ a:hover  {
 
 
  /* Custom, iPhone Retina */ 
-/* @media screen and (min-width : 320px) {
- 	.jumbotron {
+ @media screen and (min-width : 320px) {
+ /*	.jumbotron {
  		height: 250px !important;
- 	}
+ 	} */
+	 
+	 h1 {
+		margin-left: -35px;
+    		margin-bottom: 15px;
+	 }
 
 
-    } */
+    } 
 
     /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
