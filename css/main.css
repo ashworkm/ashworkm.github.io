@@ -490,7 +490,7 @@ a:hover  {
 
 	 }
 	 h1 {
-		margin-left: -35px !important;
+		margin-left: -15px !important;
     		margin-bottom: 15px !important;
 	 }
 	.jumbotron p {
@@ -504,6 +504,8 @@ a:hover  {
 }
 	.ribbon {
 		height: 45px !important;
+		    margin-top: -100px !important;
+}
 	}
 
 	img#ash_pic {
