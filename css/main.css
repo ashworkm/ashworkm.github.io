@@ -470,6 +470,10 @@ a:hover  {
 		 font-size: 12px !important;
 		 padding-bottom: 20px !important;
 	 }
+	 
+	 h3.formHeading {
+		 margin-bottom: 20px !important;
+	 }
 }
 
     /* Extra Small Devices, Phones */ 
