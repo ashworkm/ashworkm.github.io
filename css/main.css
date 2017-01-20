@@ -489,6 +489,15 @@ a:hover  {
 					background-size: cover;
 
 	 }
+	 h1 {
+		margin-left: -35px !important;
+    		margin-bottom: 15px !important;
+	 }
+	.jumbotron p {
+		width: 100% !important;
+		font-size: 12px; !important;
+		
+	 }
 	
 	.skills.wrapper {
     	padding: 78px !important;
