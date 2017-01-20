@@ -566,6 +566,9 @@ h3 {
     padding-top: 0;
     background: none;
 }
+.ribbon.second {
+	   margin-top: -68px !important;
+}
 
  .indSkill {
     background-color: transparent;
