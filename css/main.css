@@ -544,7 +544,7 @@ img#construction {
     height: 400px;
 }
 h3.formHeading {
-	font-size 15px;
+	font-size 15px !important;
 	height: 20px;
 	}
 .contact {
