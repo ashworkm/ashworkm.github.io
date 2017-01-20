@@ -110,7 +110,12 @@
     <div class="contact">
         
   <!--      <p><h3>Contact Me</h3></p> -->
-        <form action="scripts/process.php" method="POST" enctype="text/plain" name="ContactMe">
+       <?php
+$action=$_REQUEST['action'];
+if ($action=="")    /* display the contact form */
+    {
+    ?>
+        <form action="" method="POST" enctype="multipart/form-data" name="ContactMe">
 
           <br>
           <p><h2 class="formHeading">Contact Me</h2></p>
@@ -150,6 +155,29 @@
           <button type="submit" class="btn btn-primary">Submit</button>
           <br><br><br><br>
         </form>
+
+  <?php
+    } 
+else                /* send the submitted data */
+    {
+    $name=$_REQUEST['name'];
+    $email=$_REQUEST['email'];
+    $message=$_REQUEST['message'];
+    if (($name=="")||($email=="")||($message==""))
+        {
+		echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+	    }
+    else{		
+	    $from="From: $name<$email>\r\nReturn-path: $email";
+        $subject="Message sent using your contact form";
+		// mail("contact.aworkman@gmail.com", $subject, $message, $from);
+		echo "Email sent!";
+	    }
+    }  
+?>
+						
+
+			
       </div>
 
 
