@@ -637,6 +637,13 @@ button.btn.btn-primary {
 
 @media only screen and (max-width : 480px) and (min-width: 400px) {
 	
+	h1 {
+		10px !important;
+	}
+	.jumbotron p {
+		margin-top: -10px !important;
+		font-size: 12px !important;
+	}
 	.skills.wrapper {
 		padding: 95px !important;
 	}
