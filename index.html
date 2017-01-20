@@ -168,9 +168,7 @@ else                /* send the submitted data */
 		echo "All fields are required, please complete the form.";
 	    }
     else{		
-	    $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form";
-		// mail("contact.aworkman@gmail.com", $subject, $message, $from);
+	    // mail("contact.aworkman@gmail.com", $subject, $message, $from);
 		echo "Email sent!";
 	    }
     }  
