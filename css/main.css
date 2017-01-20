@@ -502,6 +502,10 @@ a:hover  {
 	.skills.wrapper {
     	padding: 78px !important;
 }
+	.projects .wrapper .ribbon {
+	
+	margin-top: -70px !important;
+	}
 	.ribbon {
 		height: 45px !important;
 		    margin-top: -100px !important;
