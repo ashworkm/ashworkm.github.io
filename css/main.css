@@ -418,7 +418,6 @@ a:hover  {
     background: url('../img/code_coffee2.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     filter: grayscale(50%);
 
 }
