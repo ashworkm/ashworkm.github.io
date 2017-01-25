@@ -682,13 +682,18 @@ button.btn.btn-primary {
     }
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
+    @media only screen and (max-width : 400px) {
         h1 {
     /*  margin-left: -35px; */
             margin-bottom: 15px;
      }
+	    
+	.ribbon {
+		width: 90%;
+    		height: 62px;
 
     }
+}
 
 
 
