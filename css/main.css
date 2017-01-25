@@ -475,6 +475,10 @@ a:hover  {
         .skills.wrapper {
             padding-left: 80px;
         }
+	
+	form {
+	   width: 70%;
+	    }
 
     }
 
