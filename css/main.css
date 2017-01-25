@@ -555,7 +555,7 @@ a:hover  {
 
      }
     .ribbon { /* display: none !important; */
-	        margin-top: -120px;
+	        margin-top: -120px !important;
 	    }
 
     img#ash_pic {
