@@ -659,8 +659,9 @@ h3 {
     border-radius: 0;
   }
 
-
-
+button.btn.btn-primary {
+  margin-top: 15px;
+	    }
 
 
 #myResume {
