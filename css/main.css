@@ -588,6 +588,10 @@ h3 {
    /* margin-bottom: 40px !important; */
     padding: 20px;
 }
+
+    .ribbon h3 {
+	    font-size: 15px;
+	    }
     
 .wrapper {
 /*  background: url("../img/resumeBackground.jpg"); */
