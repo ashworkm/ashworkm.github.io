@@ -698,5 +698,14 @@ button.btn.btn-primary {
     }
 }
 
+@media only screen and (max-width: 325px) {
+	h1 {
+		width: 90%;
+    		height: 62px;
+	}
+	.indSkill {
+		    padding-right: 70px;
+	}
+}
 
 
