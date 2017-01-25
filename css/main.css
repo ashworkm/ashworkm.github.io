@@ -696,6 +696,9 @@ button.btn.btn-primary {
     		height: 62px;
 
     }
+    .indSkill {
+	    padding-right: 15px;
+	    }
 }
 
 @media only screen and (max-width: 325px) {
@@ -707,6 +710,11 @@ button.btn.btn-primary {
     		margin-bottom: 10px;
                 height: 25px;
 	}
+	
+	.ribbon {
+		width: 100%;
+	}
+	
 	.indSkill {
 		    padding-right: 70px;
 	}
