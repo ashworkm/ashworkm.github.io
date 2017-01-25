@@ -550,7 +550,9 @@ a:hover  {
                     background-size: cover;
 
      }
-    .ribbon { display: none !important; }
+    .ribbon { /* display: none !important; */
+	        margin-top: -120px;
+	    }
 
     img#ash_pic {
         border-radius: 50%;
