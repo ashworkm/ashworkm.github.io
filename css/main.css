@@ -446,9 +446,24 @@ a:hover  {
             height: 170px;
             width: 170px;
             margin: 20px;
-        }
+        } 
 
     }
+
+/* iPad Pro */
+  @media only screen and (max-width : 1030px) {
+	span {
+	    vertical-align: top;
+    	    line-height: 130px;
+}
+
+.indSkill {
+	height: 130px;
+    width: 130px;
+    margin: 20px;
+}
+}
+
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
