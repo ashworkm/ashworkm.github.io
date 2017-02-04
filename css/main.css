@@ -186,7 +186,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    padding: 60px;
+    padding: 60px 60px 20px;
 }
 
 .ribbon {
@@ -269,7 +269,7 @@ h3 {
 
 .projects {
 /*	background-color: #98878F; */
-	height: 700px;
+	height: 400px;
 /*	margin-top: 100px; */
 
 /*	background-color: #7ea1a5;
@@ -287,7 +287,7 @@ img#construction {
 	margin: 0 auto;
     width: 80%;
     opacity: 0.9;
-    height: 400px;
+    height: 200px;
     display: block;
 }
 
