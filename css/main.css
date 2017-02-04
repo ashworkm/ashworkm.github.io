@@ -451,7 +451,7 @@ a:hover  {
     }
 
 /* iPad Pro */
-  @media only screen and (max-width : 1030px) {
+  @media only screen and (max-width : 1030px) and (min-width: 1020px){
 	span {
 	    vertical-align: top;
     	    line-height: 130px;
