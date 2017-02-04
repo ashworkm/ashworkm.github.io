@@ -744,7 +744,7 @@ button.btn.btn-primary {
 	}
 	
 	.indSkill {
-		    padding-right: 70px !important;
+		    padding-right: 70px;
 		    padding-left: 0;
 		    line-height: 20px;
 	}
