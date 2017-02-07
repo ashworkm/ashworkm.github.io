@@ -547,6 +547,7 @@ a:hover  {
 
    ul.topnav.responsive {
     position: relative;
+    width: 100%;
 }
   ul.topnav.responsive li.icon {
     position: absolute;
