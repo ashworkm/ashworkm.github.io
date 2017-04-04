@@ -296,6 +296,10 @@ img#construction {
     margin-top: 35px;
 }
 
+div.thumbnail img {
+	height: 214.73px !important;
+}
+
 .divider {
 	padding-top: 95px;
 /*    padding-bottom: 105px;
