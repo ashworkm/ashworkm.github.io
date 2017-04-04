@@ -363,6 +363,10 @@ footer {
     clear: both;
  }
 
+ul.footer-nav {
+    padding-right: 45px;
+}
+
  .footer-nav li {
     display: inline-block;
     padding: 0 5px;
