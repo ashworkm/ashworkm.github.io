@@ -1,0 +1,480 @@
+nav.navbar.navbar-fixed-top {
+	background-color: #fff; 
+	width: 100% !important;
+	height: 60px;
+	opacity: 1;
+    z-index: 13;
+    border: none;
+}
+
+/* nav.navbar.navbar-fixed-top.change-color {
+	background-color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border: none !important;
+} */
+
+/* Remove margins and padding from the list, and add a background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #535353;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+nav li {
+	float: left;
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none !important;
+	font-size: large;
+	border: 2px solid transparent;
+	margin: 0;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/*Hover state for top level links*/
+li a:hover  {
+	text-decoration: none !important;
+	/* border: 2px solid #ffdcd2; */
+    color: #fd6b54 !important;
+	padding: 10px;
+	margin: 0px;
+}
+
+header {
+	height: 800px;
+    width: 100%;
+    display: block;
+    margin-top: -50px !important;
+    margin: 0;
+    text-align: center;
+    background: url('../img/party1.jpg'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*#header-img {
+    width: 100%;
+    height: 800px;
+} */
+
+.header-text-container {
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    /* margin: 0 auto !important; */
+    margin-left: 350px;
+    line-height: 4.125rem;
+    display: block;
+    height: 200px;
+}
+
+.header-text-container h1 {
+    font-family: 'Handlee', cursive;
+    color: #fff;
+    font-size: 55px;
+}
+h1{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+     font-family: 'Handlee', cursive;
+    color: #fff;
+    font-size: 25px;
+}
+
+h2 {
+    color: #535353;
+}
+
+.about-us {
+    background-color: #dcf3ed;
+}
+
+.about-us div.col-lg-6 {
+    padding: 0;
+}
+
+.about-us h2 {
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+}
+
+p {
+   /* font-size: 18px; */
+    line-height: 4.125rem;
+    margin-top: 1rem;
+    padding: 0 8.125rem;
+}
+
+.blue {
+    color: #5bc0a5;
+}
+
+.col-lg-6 p a {
+    color: #5bc0a5;
+}
+
+.col-lg-6 p a:hover {
+    color: #fd6b54 !important;
+    text-decoration: none !important;
+}
+
+p.pink {
+    color: #fd6b54;
+    margin: 40px 0 20px 0;
+    padding: 20px 50px 20px 50px;
+}
+
+.coral {
+    color: #ffdcd2;
+    font-size: 1.125rem;
+    margin-bottom: 1.875rem !important;
+    height: 130px;
+}
+
+
+p.center {
+    text-align: center;
+    font-size: 22px;
+}
+
+.about-us img {
+    display: block;
+    width:  100%;
+}
+
+div#dream-team {
+    background-color: #ffdcd2;
+}
+
+.team-header{
+    height: 800px;
+    width: 100%;
+    display: block;
+    margin-top: -50px !important;
+    margin: 0;
+    text-align: center;
+    background: url('../img/party2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#team-intro {
+    background-color: #dcf3ed;
+    padding: 100px;
+}
+
+section#team-intro h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#ppc-team {
+    height: 3800px;
+    background-color: #fddcd2 !important;
+    padding: 100px;
+}
+
+.col-md-4 {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+img.thumbnail {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+section#ppc-team h2 {
+    margin: 60px;
+    text-align: center;
+}
+
+section#ppc-team h3 {
+    text-align: center;
+}
+
+section.testimonials {
+    background-color: #fd6b54;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#colleagues {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+    line-height: normal;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.testimonials p {
+    margin: 20px;
+}
+
+/* client slider */
+
+.my-slider {
+   /* margin-top: 100px;
+    margin-bottom:  100px; */
+}
+
+.my-slider ul li div img {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    border: solid 1px gray;
+}
+
+.my-slider li {
+    text-align: center;
+}
+
+/*.my-slider p {
+    font-size: 16px;
+} */
+/* .unslider-nav {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+} */
+
+/* form styling */
+
+nav.unslider-nav {
+    margin: 0 0 0 595px !important;
+    padding: 40px 0 !important;
+}
+
+
+form {
+/*  background: url("../img/formBackground.png"); 
+    background-color: rgba(244, 208, 192, 0.5); 
+    /*opacity: 0.7;
+    z-index: 13; 
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px; 
+}
+
+h2.formHeading {
+    text-align: center;
+}
+
+.form-group label{
+    font-size: large;
+    margin-top: 10px;
+}
+
+form .form-group {
+    width: 80%;
+    margin: 0 auto;
+}
+
+small#emailHelp {
+    color: #49274A !important;
+}
+
+button.btn.btn-primary {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: block;
+    width: 40%;
+    background-color: #49274A !important;
+    background-image: none !important;
+    border-color: #49274A !important; */
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #fd6b54 !important;
+    border-color: #fd6b54 !important;
+}
+
+.row.contact {
+    background-color: #fddcd2;
+}
+
+.contact p {
+    color: #fd6b54;
+}
+
+div.contact {
+    padding: 30px;
+}
+
+div#contact-info {
+    margin-top: 145px;
+}
+
+footer {
+   /* background: #f7f7f7; */
+   background-color: #dcf3ed;
+    padding: 0;
+    min-height: 220px;
+    text-align: center;
+    color: #fff;
+    clear: both;
+ }
+
+ .footer-nav li {
+    display: inline-block;
+    padding: 0 5px;
+    color: #5bc0a5;
+    font-size: 16px;
+    padding-top: 100px;
+ }
+
+.copyright {
+    color: #5bc0a5;
+    font-family: Blanc-Light;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.125rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+li.icon a {
+    color: #535353 !important;
+}
+
+li.icon a:hover {
+    color: #fd6b54 !important;
+}
+
+.unslider-arrow {
+    display: none;
+}
+
+a.unslider-play {
+    display: none;
+}
+
+nav.unslider-nav ol li {
+    height: 11px;
+    width: 12px;
+}
+
+/* media queries */
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    form {
+       width: 70%;
+    }
+/*    button.navbar-toggle.collapsed {
+        display: none;
+    } */
+
+     h1{
+        font-size:14px;
+    }
+}
+}
+
+  /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+    @media screen and (max-width:680px) {
+      ul.topnav li {display: none;}
+      ul.topnav li.icon {
+        float: right;
+        display: inline;
+      }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+       ul.topnav.responsive {position: relative;}
+      ul.topnav.responsive li.icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+      }
+      ul.topnav.responsive li {
+        float: none;
+        display: inline;
+      }
+      ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+      }
+}
+
+/* Extra Small Devices, Phones */     
+@media only screen and (max-width : 480px) {
+     .header {
+        padding: 48px 0;
+        height: 320px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+    form {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+  }
+}
+
+/* Custom, iPhone 6 */ 
+    @media only screen and (max-width : 400px) {
+        h1 {
+    /*  margin-left: -35px; */
+            margin-bottom: 15px;
+     }
+    }
+
+@media only screen and (max-width: 325px) {
+   /* .hello {
+            margin-top: -15px; */
+    }
+    h1 {
+        width: 90%;
+            margin-bottom: 10px;
+                height: 25px;
+    }
+}
