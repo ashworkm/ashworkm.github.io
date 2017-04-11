@@ -434,7 +434,7 @@ nav.unslider-nav ol li {
 
   /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
     @media screen and (max-width:680px) {
-      ul.topnav li {display: none;}
+            ul.topnav li {display: none;}
       ul.topnav li.icon {
         float: right;
         display: inline;
@@ -454,7 +454,7 @@ nav.unslider-nav ol li {
         display: block;
         text-align: left;
       }
-	     /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+ /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
     ul.topnav li:not(:first-child) {
         display: none;
     }
@@ -484,8 +484,8 @@ nav.unslider-nav ol li {
     background-color: #49274A;
     text-align: center;
   }
-}
-
+    
+    }
 /* Extra Small Devices, Phones */     
 @media only screen and (max-width : 480px) {
      .header {
