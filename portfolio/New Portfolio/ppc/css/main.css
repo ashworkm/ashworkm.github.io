@@ -534,6 +534,13 @@ p.center {
     background-repeat: no-repeat;
     background-size: cover;
 } */
+.team-header {
+	background-attachment: initial;
+}
+
+	#team-intro {
+		padding: 20px;
+	}
 }
 
 /* Custom, iPhone 6 */ 
