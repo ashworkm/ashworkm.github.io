@@ -470,6 +470,31 @@ nav.unslider-nav ol li {
         height: 100%;
         border-radius: 0;
   }
+	
+.header-text-container {
+    top: 20%;
+}
+
+
+
+.header-text-container h1 {
+	width: 100%;
+	font-size: 40px;
+}
+
+p.center {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.my-slider ul li div img {
+	margin-top: 225px;
+	margin-bottom: 20px;
+}
+
+.footer-nav li {
+	padding-top: 40px;
+}
 }
 
 /* Custom, iPhone 6 */ 
