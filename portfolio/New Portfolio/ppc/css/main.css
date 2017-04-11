@@ -491,7 +491,7 @@ ul.topnav {
     }
 /* Extra Small Devices, Phones */     
 @media only screen and (max-width : 480px) {
-     .header {
+     header {
         padding: 48px 0;
         height: 320px;
         background-repeat: no-repeat;
@@ -528,12 +528,12 @@ p.center {
 .footer-nav li {
 	padding-top: 40px;
 }
-header.team-header {
+/* header.team-header {
     padding: 48px 0;
     height: 320px;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 }
 
 /* Custom, iPhone 6 */ 
