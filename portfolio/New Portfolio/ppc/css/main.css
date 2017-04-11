@@ -497,6 +497,9 @@ ul.topnav {
         background-repeat: no-repeat;
         background-size: cover;
 }
+p {
+	padding: 0;
+	}
 p.center.coral {font-size: 14px; padding: 0;}
     form {
         width: 100%;
@@ -548,12 +551,15 @@ p.center {
 	}
 	
 	img.thumbnail { 
-		padding: 0;
+		padding: 10px;
 	}
 	
 	section#ppc-team {
 		padding: 10px;
+		height: 8100px;
 	}
+	
+	
 	
 }
 
