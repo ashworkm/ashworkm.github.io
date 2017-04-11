@@ -528,7 +528,7 @@ p.center {
 .footer-nav li {
 	padding-top: 40px;
 }
-header.team-header.container-fluid {
+header.team-header {
     padding: 48px 0;
     height: 320px;
     background-repeat: no-repeat;
