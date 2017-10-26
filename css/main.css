@@ -222,7 +222,7 @@ h3 {
 .indSkill {
 	background-color: rgba(244, 208, 192, 0.5);
 	color: #49274A;
-	font-size: 22px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	display: inline-block;
 	height: 180px;
@@ -265,6 +265,8 @@ h3 {
     background-size: cover;
 
 }
+
+.row {margin-left: 90px !important;}
 
 
 .projects {
@@ -480,6 +482,9 @@ a:hover  {
         .skills.wrapper {
             padding: 30px;
         }
+	
+	    
+	    .row {margin-left:0 !important;}
 
         .indSkill {
             height: 170px;
